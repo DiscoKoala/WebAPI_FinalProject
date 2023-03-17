@@ -1,13 +1,11 @@
 .sidebar {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
     flex: 0.35;
 }
 
 .sidebar_header {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
     padding: 20px;
     border-right: 1px solid lightgray;
@@ -16,7 +14,7 @@
 
 .sidebar_headerRight {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     min-width: 10vw;
 }
