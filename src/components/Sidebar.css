@@ -41,3 +41,9 @@
     min-width: 10vw;
 }
 
+.sidebar_chats {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
