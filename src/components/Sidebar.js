@@ -6,12 +6,14 @@ import MoreVertIcon from '@mui/icons-material/MoreVert'
 import IconButton from '@mui/material/IconButton'
 import Avatar from '@mui/material/Avatar'
 import { SearchOutlined } from '@mui/icons-material'
+import SidebarChat from './SidebarChat'
 
 const Sidebar = () => {
     return (
         <div className="sidebar">
             <div classname="sidebar_header"></div>
-                <Avatar />
+                <Avatar 
+                src="https://pbs.twimg.com/profile_images/1020939891457241088/fcbu814K_400x400.jpg"/>
                 <div className="sidebar_headerRight">
                     <IconButton>
                         <DonutLargeIcon />
@@ -28,7 +30,11 @@ const Sidebar = () => {
                     <SearchOutlined />
                     <input placeholder="Search or start new chat" type="text" />
                 </div>
-            <div classname="sidebar_chats"></div>
+            <div classname="sidebar_chats">
+                <SidebarChat />
+                <SidebarChat />
+                <SidebarChat />
+        </div>
         </div>
     )
 }
