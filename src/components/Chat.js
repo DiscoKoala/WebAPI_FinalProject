@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from 'react'
 import Avatar from '@mui/material/Avatar'
+import { IconButton } from '@mui/material'
 import { AttachFile, MoreVert, SearchOutlined } from '@mui/icons-material'
 import './Chat.css'
 const Chat = () => {
