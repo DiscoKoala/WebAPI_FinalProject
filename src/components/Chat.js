@@ -30,7 +30,7 @@ const Chat = () => {
                 </div>
             </div>
             <div className="chat__body"></div>
-                <p classname = "chat_message"></p>
+                <p className = "chat_message"></p>
             <div className="chat__footer"></div>
         </div>
     )

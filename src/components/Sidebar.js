@@ -11,7 +11,7 @@ import SidebarChat from './SidebarChat'
 const Sidebar = () => {
     return (
         <div className="sidebar">
-            <div classname="sidebar_header">
+            <div className="sidebar_header">
                 <Avatar 
                 src="https://pbs.twimg.com/profile_images/1020939891457241088/fcbu814K_400x400.jpg"/>
                 <div className="sidebar_headerRight">
@@ -26,13 +26,13 @@ const Sidebar = () => {
                     </IconButton>
                 </div>
             </div>
-            <div classname="sidebar_search">
+            <div className="sidebar_search">
                 <div className="sidebar_searchContainer">
                     <SearchOutlined />
                     <input placeholder="Search or start new chat" type="text" />
                 </div>
             </div>
-            <div classname="sidebar_chats">
+            <div className="sidebar_chats">
                 <SidebarChat />
                 <SidebarChat />
                 <SidebarChat />
